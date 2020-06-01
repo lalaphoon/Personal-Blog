@@ -43,6 +43,7 @@ filename_case: 0
 render_drafts: false
 post_asset_folder: true
 relative_link: false
+hexo-tag-video: true
 future: true
 highlight:
   enable: true
