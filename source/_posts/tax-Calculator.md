@@ -7,6 +7,8 @@ tags:
 - project
 ---
 
+[github link](https://github.com/lalaphoon/TaxCalculator)
+
 TaxPro is an iOS mobile app that helps people to estimate their tax return based on user’s total income and location. There are a lot of topics leading to different formulas. User can either type the formula they are looking for or look at a group of formulas. 
 
 * iOS 9.2, worked with Xcode 7.2 in swift 4

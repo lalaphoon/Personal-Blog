@@ -17,6 +17,10 @@ The game took me 1.5 weeks to plan and study, and another 1.5 weeks to actual im
 
 <!--more-->
 
+{% raw %}
+<button onclick="window.open('/files/CS488_Final_Report.pdf')">Check Final Report</button>
+{% endraw %}
+
 Here is a video about it:
 
 {% video <iframe width="560" height="315" src="https://www.youtube.com/embed/Y29Be31nX_o?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe> %}

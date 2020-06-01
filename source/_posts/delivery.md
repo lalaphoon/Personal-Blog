@@ -5,7 +5,12 @@ tags:
 - project
 - full stack
 - reactJS
+- redux
 - java
+- java servlet
+- aws
+- docker
+- MySQL
 ---
 
 
