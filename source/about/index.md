@@ -3,6 +3,10 @@ title: About Me
 date: 2020-05-31 22:04:02
 ---
 
+{% raw %}
+<button onclick="window.open('/files/monica_luo_resume.pdf')">Want a PDF Copy?</button>
+{% endraw %}
+
 ## Education
 
 University of Waterloo, Waterloo, ON 
@@ -31,7 +35,6 @@ University of Waterloo, Waterloo, ON
 2017 Sept - 2019 Nov
 
 **Stuff** [link](https://apps.apple.com/us/app/apple-store/id383545689)
-
 *A news feed iOS app from New Zealand*
 
 * Worked in a team of 5 responsible for creating new features and ensured the availability for both iPhone & iPad platforms.
@@ -44,7 +47,6 @@ University of Waterloo, Waterloo, ON
 
 
 **Uncaged Cards Generator** [link](https://uncaged-cards.com/)
-
 *Two-player board card game*
 
 * Designed and created the entire auto card generator system by using **Photoshop Scripting** to reduce the total working times.
@@ -55,7 +57,6 @@ University of Waterloo, Waterloo, ON
 
 
 **Adidas Predator** [link](https://www.behance.net/gallery/71834227/Predator-AR-installation)
-
 *An AR app on iPad for Adidas Predator seasonal promotions.*
 
 * Worked in a team of 5 responsible for aggregation of 3D models with animation in **Unity** environment and front-end.

@@ -8,7 +8,6 @@ tags:
 - java
 ---
 
-# Delivery
 
 [Front End](https://github.com/lalaphoon/delivery-frontend)
 
@@ -26,6 +25,7 @@ tags:
 <Code>Utilized</Code>: Java, RESTful API, Full Stack Development, MySQL, [AWS](##AWS)
 
 
+<!-- More -->
 
 ## Intro
 
@@ -231,13 +231,9 @@ handleSearch = (address) => {
 * Request for an order QPD: 50M
 * in half year: 50M * 30 Days * 6 months = 9000M = 9 Billion
 * in one year: 18 Billion
-
 * Assume each stored object is approximately 500 bytes
-
 * in half year: 9 billion * 500 bytes = 4.5 TB
-
 * in one year: 5TB
-
 
 
 Method 1: 热储存 in memory
@@ -279,6 +275,10 @@ Method 2: 冷储存
 * [Route Info Table](#####DB---Route-Table) :  Store a series temporary available route for a deliver
 
 ### API
+
+#### User Managment - Login/Register, Check History
+
+![React Components](/images/delivery-images/4.png)
 
 #### Login
 
@@ -449,6 +449,8 @@ response:
 
 
 #### User's Request
+
+![React Components](/images/delivery-images/5.png)
 
 > Make a request order
 
