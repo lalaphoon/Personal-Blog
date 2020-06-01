@@ -192,11 +192,10 @@ classDiagram
      
       	//-- HERE IS THE USE OF BRIDGE --
         result = (CurrentProvince.getData(Location(rawValue: profileProvince)!)?.getRRSP(income!, contribution!).result)!
-      //CurrentProvince is a static enumurator. pass in Location.Alberta will return us an 
-			//alberta formula.
+        //CurrentProvince is a static enumurator. pass in Location.Alberta will return us an alberta formula.
       
-      //CurrentProvince.getData(Location("Alberta")) -> AlbertaTax()
-      //result = AlbertaTax().getRRSP().result;
+        //CurrentProvince.getData(Location("Alberta")) -> AlbertaTax()
+        //result = AlbertaTax().getRRSP().result;
         return result     
         
     }

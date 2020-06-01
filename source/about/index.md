@@ -50,7 +50,7 @@ University of Waterloo, Waterloo, ON
 * Designed and created the entire auto card generator system by using **Photoshop Scripting** to reduce the total working times.
 * Be able to produce gaming cards in both **psd** and **jpg** format.
 * Generated 200+ cards within 15 mins, which is 10 times faster than the traditional way.
-* <Code>Leveraged Knowledge</Code> in Javascript, Adobe Photoshop Scripting and it is an independent project (design, implement and test).
+* {% post_link uncaged-cards-generator Leveraged knowledge %} in Javascript, Adobe Photoshop Scripting and it is an independent project (design, implement and test).
 
 
 
@@ -80,7 +80,7 @@ University of Waterloo, Waterloo, ON
   * Generated delivery routes and returned to front-end with **Google Directions API**
   * Build **MySQL** database on **Amazon RDS** to store users’ order history and ongoing order.
   * Deployed to **AWS EC2** and managed version control with **Docker**.
-* <Code>Leveraged knowledge</Code>: in Full stack Web Development, React & Redux, JavaScript, CSS, SQL, RESTful API, Docker, experiened with Google Frameworks such as GeoCoding API, Google Map API, Google Directions API and used Amazon service RDS, EC2 for backend support.
+*  {% post_link delivery Leveraged knowledge %}: in Full stack Web Development, React & Redux, JavaScript, CSS, SQL, RESTful API, Docker, experiened with Google Frameworks such as GeoCoding API, Google Map API, Google Directions API and used Amazon service RDS, EC2 for backend support.
 
 
 
@@ -96,5 +96,5 @@ University of Waterloo, Waterloo, ON
 * Used **Charts** and **PureLayout** to illustrate the proportion between total income and tax.
 * Allows user save and reload a calculation record with **Core Data.**
 * Created sharing functionality and sending email on user’s settings page with **Social** and **MessageUI**
-* <Code>Utilized</Code>: Swift, Auto Layout, Design Patterns (Strategy, Bridge, Singleton), Core data, Social, MessageUI, PureLayout, Charts
+* {% post_link tax-calculator Utilized %}: Swift, Auto Layout, Design Patterns (Strategy, Bridge, Singleton), Core data, Social, MessageUI, PureLayout, Charts
 
