@@ -62,21 +62,21 @@ app.activeDocument = docRef // set the current active doc is docRef
 
 ## Main
 
-​	| CreateACard
++​------| CreateACard
 
-​		| Helper: labels HEADER and DIR
++----------| Helper: labels HEADER and DIR
 
-​				|InsertBGImage
++--------------------|InsertBGImage
 
-​				|InsertText
++--------------------|InsertText
 
-​				|Utility
++--------------------|Utility
 
-​				|SmallIcon
++--------------------|SmallIcon
 
-​				|CreateNewDoc
++--------------------|CreateNewDoc
 
-​				|UncagedInfo
++--------------------|UncagedInfo
 
 
 
