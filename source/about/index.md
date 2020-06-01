@@ -5,12 +5,15 @@ date: 2020-05-31 22:04:02
 
 ## Education
 
-University of Waterloo, Waterloo, ON
-
+University of Waterloo, Waterloo, ON 
 2013 Jan - 2017 Dec
 
 * Major: B.S. in Computer Science, Software Engineering Options
 * Minor: Fine Arts Studio from Faculty of Arts
+
+
+
+
 
 ## Technical Skills
 
@@ -18,10 +21,13 @@ University of Waterloo, Waterloo, ON
 * **Frameworks**: ReactJS & Redux, Apache Tomcat
 * **Developing Tools**: Xcode, Unity, Photoshop
 
+
+
+
+
 ## Employment
 
 **ZeMind Game Studio** Software Engineer, Full-time
-
 2017 Sept - 2019 Nov
 
 **Stuff** [link](https://apps.apple.com/us/app/apple-store/id383545689)
@@ -35,6 +41,8 @@ University of Waterloo, Waterloo, ON
 * Fixed the issues caused by iOS 13; Diagnosed crashes,reduced over 1k of crash reports on iPad generated in half week.
 * <Code>Leveraged Knowledge</Code> in iPhone/iPad Development in Swift & Obj-c. Management in large-scale projects. Experienced with integration of third-party frameworks.
 
+
+
 **Uncaged Cards Generator** [link](https://uncaged-cards.com/)
 
 *Two-player board card game*
@@ -43,6 +51,8 @@ University of Waterloo, Waterloo, ON
 * Be able to produce gaming cards in both **psd** and **jpg** format.
 * Generated 200+ cards within 15 mins, which is 10 times faster than the traditional way.
 * <Code>Leveraged Knowledge</Code> in Javascript, Adobe Photoshop Scripting and it is an independent project (design, implement and test).
+
+
 
 **Adidas Predator** [link](https://www.behance.net/gallery/71834227/Predator-AR-installation)
 
@@ -53,9 +63,13 @@ University of Waterloo, Waterloo, ON
 * Made effective communication with clients to deliver a productive plan.
 * <Code>Leveraged knowledge</Code> in C#, Unity, Animation , AR with Vuforia and a touch of Cinema 4d
 
+
+
+
+
 ## Personal Projects
 
-### Delivery - a web app
+**Delivery - a web app**
 
 * Front-end [github link](https://github.com/lalaphoon/delivery-frontend)
   * Designed and developed an interactive web page for users to search a nearby delivery dispatcher and allocate a delivery path with **React JS** and **Redux**.
@@ -68,7 +82,11 @@ University of Waterloo, Waterloo, ON
   * Deployed to **AWS EC2** and managed version control with **Docker**.
 * <Code>Leveraged knowledge</Code>: in Full stack Web Development, React & Redux, JavaScript, CSS, SQL, RESTful API, Docker, experiened with Google Frameworks such as GeoCoding API, Google Map API, Google Directions API and used Amazon service RDS, EC2 for backend support.
 
-### Tax Calulator Mobile App
+
+
+
+
+**Tax Calulator Mobile App**
 
 [github link](https://github.com/lalaphoon/TaxCalculator)
 
