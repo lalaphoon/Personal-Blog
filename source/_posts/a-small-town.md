@@ -13,7 +13,7 @@ tags:
 
 Hi, this is the game that I created for CS488 Spring 2017 OpenGL C++ Final project to complete 10 objectives : Modelling the scene, UI, Particle System, Sound, Static Collision detection, Transparency, Reflection Map, Texture Mapping, Shadow Mapping (imperfect), Lens Flare.
 
-The game took me 1.5 weeks to plan and study, and another 1.5 weeks to actual implement it. The game was purely implemented by math including linear algebra, vector and matrices; And shaders in OpenGL C++. No extra game engine was used. Edited: And I got **Honorable Mention** for this project!
+The game took me 1.5 weeks to plan and study, and another 1.5 weeks to actual implement it. The game was purely implemented by math including linear algebra, vector and matrices; And shaders in OpenGL C++. No extra game engine was used. Edited: And I got [Honorable Mention](https://www.student.cs.uwaterloo.ca/~cs488/) for this project!
 
 <!--more-->
 
