@@ -65,60 +65,7 @@ Formula includes
 >  * DividendIncome
 >  * InterestIncome
 
-
-
-```mermaid
-classDiagram
-  Formula <|-- RRSP
-  Formula <|-- DividendIncome
-	Formula : +UIView initUI(_ VC:UIViewController)
-  Formula : +setProfile(_ income: Double, province: String)
-  Formula : +Data retrieveData()
-  Formula : +Double getResult()
-  Formula : +String getTip()
-  Formula : +String getDefinition()
-  Formula : +String getInstruction()
-  Formula : +Bool checkBasicInput()
-
-  class RRSP{
-  	+Double BasicPersonalAmount() //ON, AB, BC, MB
-  	+String getInstruction()
-  	+String getDefinition()
-  	+Double getBasicReduction() //ON, BC
-  	+Double getSingleReduction() //ON, BC
-  	+Double getHealthPremium() //ON
-  	+Double getProvincialCredit()//BC, MB
-  	+Double getSingleProvincialCredit() //BC,MB
-  	
-  	+UIView initUI()
-  	+setProfile()
-  	+Double getResult()
-  	+Data retrieveData()
-  	+String getTip()
-  	+String getDefinition()
-  	+String displayProcess()
-  	+Bool checkBasicInput()
-  }
-  class DividendIncome {
-  	+UIView init()
-  	+setProfile()
-  	+Double getResult()
-  	+Double BasicPersonalAmount()//ON,AB,BC
-  	+Double getBasicReduction() //ON,BC
-  	+Double getSingleReduction() //ON,BC
-  	+Double getHealthPremium()//ON
-  	+Double getProvincialCredit()//BC
-  	+Double getSingleProvincialCredit()//BC
-  	+Double foreignTaxCreditHelper() //ALL
-		+Double getForeignTaxCredit() //ALL
-		+operationBeforeGettingResult()//ON,BC
-		+String getInstruction()
-		+Data retrieveData()
-		+String getTip()
-		+String getDefinition()
-		+Bool checkBasicInput()
-  }
-```
+ ![1](/images/tax/1.png)
 
 ```swift 
 class Calculator{
@@ -172,14 +119,7 @@ It's similar to **Strategy**(dynamically, changed in run-time based on client's 
 
 [Read More](https://refactoringguru.cn/design-patterns/bridge)
 
-```mermaid
-classDiagram
-	ProvincialTax <|-- OntarioTax
-	ProvincialTax <|-- AlbertaTax
-	Formula <|-- RRSP
-	Formula <|-- DividendIncome
-	
-```
+ ![1](/images/tax/2.png)
 
 > When we calculate a result of a topic (RRSP), we actually find an implementation based on it's province (a subclass of ProvincialTax) and we let all the logic written in the subclass of ProvincialTax. It's the communication between those subclasses.
 
@@ -261,43 +201,7 @@ enum CurrentProvince {
 }
 ```
 
-```mermaid
-classDiagram
-	ProvincialTax <|-- OntarioTax
-	ProvincialTax <|-- Alberta
-	ProvincialTax : +Pair getRRSP()
-	ProvincialTax : +Pair getIntrerestIncome()
-	ProvincialTax : +Pair getOldAgePersion()
-	ProvincialTax : +Pair getForeignInvestmentIncome()
-	ProvincialTax : +Pair getDividendIncome()
-	ProvincialTax : +Double getBasicReduction()
-	ProvincialTax : +Double getProvincialCredit()
-	ProvincialTax : +Double getForeignTaxCredit()
-	class OntarioTax {
-		-TaxPro TP // helper func inlcudes getSurtax, fundation, get2Digits formatting
-		-[String] interestThreshold
-		+Pair getRRSP()
-		+Pair getInterestIncome()
-		+Pair getOldAgePension()
-		+Pair getForeignInvestmentIncome()
-		+Pair getDividendIncome()
-		+Pair getForeignTaxCredit()
-		+Double getBasicReduction()
-	}
-	class Alberta {
-		-TaxPro TP
-		-Location location = Location.Alberta
-		+Pair getRRSP()
-		+Pair getInterestIncome()
-		+Pair getOldAgePension()
-		+Pair getForeignInvestmentIncome()
-		+Pair getDividendIncome()
-		+Double getForeignTaxCredit()
-		+Double getBasicReduction()
-		+Double getProvincialCredit()
-	}
-	
-```
+ ![1](/images/tax/3.png)
 
 
 
@@ -441,34 +345,7 @@ reference: https://medium.com/xcblog/core-data-with-swift-4-for-beginners-1fc067
 
 ### In App
 
-```mermaid
-classDiagram
-	class User {
-		+String firstName
-		+String lastName
-		+String province
-		+NSNumber income
-		+String maritalStatus
-	}
-	class TableCellData {
-		+String? first
-		+String? forth
-		+String? second
-		+String? third
-		+Record? record
-	}
-	class Record {
-		+String? descrip
-		+String? help
-		+String? title
-		+NSOrderedSet? tableData
-		+NSOrderedSet? values
-	}
-	class Value {
-		+String key
-		+Double value
-	}
-```
+ ![1](/images/tax/4.png)
 
 > Find all relationship in TaxCalculator.xcdatamodeld
 
