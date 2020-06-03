@@ -1,4 +1,3 @@
-
 ---
 title: iOS Tax Calculator App Summary
 date: 2018-04-14 17:54:37
@@ -23,6 +22,56 @@ TaxPro is an iOS mobile app that helps people to estimate their tax return based
 * Experienced with Sketch to design User Interface.
 
 <!--more-->
+
+## UX
+
+#### How to communicate with a Client for UI/UX?
+
+I designed UX for this project in Sketch (as I am the only designer and developer in our team -  while the other guy only provided me all the tax fomulars). From my experience, UX is really important for non-tech clients. Because they believe that no matter what magic you would do under the hook, your code would be as the same cool as the UI shows. As long as you present them a series of outstanding UX, they believe that you would be a professional guy (team) for their project. By the way, I did have an experience that a client didn't want to continue with my team due to a developer-language-spoken UX design.
+
+**What should you determine first?**
+if a client comes from a company, you should determine the theme colours with him. Then you can continue. Why? because a theme color would present its company and it can also drive you a general idea how your UI would looks like.
+
+I started with Green theme, background color you can go with black or white. But I chose black, to make numbers outstanding and gives a hyber style with scrolling animation.
+
+| First Version              |                            |                            |                            |                            |                            |                            |
+| -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| ![1](/images/tax/v1/1.png) | ![1](/images/tax/v1/2.png) | ![1](/images/tax/v1/3.png) | ![1](/images/tax/v1/4.png) | ![1](/images/tax/v1/5.png) | ![1](/images/tax/v1/6.png) | ![1](/images/tax/v1/7.png) |
+
+And different theme colours?
+
+![1](/images/tax/v2/0.png)
+
+Then client says the company's theme is orange, and a searching feature,  could you make a change?
+
+-"You mean this?"
+
+| V2                         |                            |
+| -------------------------- | -------------------------- |
+| ![1](/images/tax/v3/0.png) | ![1](/images/tax/v3/1.png) |
+
+-"Could you make it cheerful? Might be change the black to white? And how about adding a page for the user management?"
+
+-"Sure!"
+
+-"Or may be we can try a set of simplier inputs!"
+
+| V3                         |                            |                            |                            |                            |                            |                            |
+| -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| ![1](/images/tax/v4/1.png) | ![1](/images/tax/v4/2.png) | ![1](/images/tax/v4/3.png) | ![1](/images/tax/v4/4.png) | ![1](/images/tax/v4/5.png) | ![1](/images/tax/v4/6.png) | ![1](/images/tax/v4/0.png) |
+
+After several meetings, we finally determined that we are going to use this kinda set.
+
+And here is what we have for this app after implemented.
+
+| Finailized                  | 1                           |                             |                              |                              |                              |
+| --------------------------- | --------------------------- | --------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
+| ![1](/images/tax/new/1.png) | ![1](/images/tax/new/2.png) | ![1](/images/tax/new/3.png) | ![1](/images/tax/new/4.png)  | ![1](/images/tax/new/5.png)  | ![1](/images/tax/new/6.png)  |
+| ![1](/images/tax/new/7.png) | ![1](/images/tax/new/8.png) | ![1](/images/tax/new/9.png) | ![1](/images/tax/new/10.png) | ![1](/images/tax/new/11.png) | ![1](/images/tax/new/12.png) |
+
+In dev process, I do recommend that you create your ui through code. Because git (version control) doesn't allow you to change the Storyboard at the same time. It will break it! So the less touch of storyboard, the safer for your project. I was in the middle of it. Half Storyboard, haf code.
+
+![1](/images/tax/new/0.png)
 
 ## Design Pattern
 
@@ -314,16 +363,19 @@ Suppose : many to many relationship with person entity and address entity
 
 Create a relationship:
 1. create the set
+```swift
 newPerson.setValue(NSSet(obejct: newAddress), forKey: "addresses")
+```
 
 2. save the newPerson context
+```swift
     do {
-   try newPerson.managedObjectContext?.save()
+        try newPerson.managedObjectContext?.save()
     } catch {
-   errorHandling
+        errorHandling
     }
+```
 
-  
 
 > NOTE: the Core Data creates the inverse relationship for us
 > NOTE: the above save newPerson, newAddress and the relationship
