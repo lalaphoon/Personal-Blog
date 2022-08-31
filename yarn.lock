@@ -124,7 +124,7 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.0.0.tgz#23c0df14f6a88077f5f986c0d167ec03c3d5537c"
   integrity sha512-Phlt0plgpIIBOGTT/ehfFnbNlfsDEiqmzE2KRXoX1bLIlir4X/MR+zSyBEkL05ffWgnRSf/DXv+WrUAVr93/ow==
 
-bluebird@^3.2.2, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
+bluebird@^3.2.2, bluebird@^3.5.0, bluebird@^3.5.1, bluebird@^3.5.2, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
@@ -408,10 +408,24 @@ dom-serializer@^0.2.1:
     domelementtype "^2.0.1"
     entities "^2.0.0"
 
+dom-serializer@^1.0.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-1.4.1.tgz#de5d41b1aea290215dc45a6dae8adcf1d32e2d30"
+  integrity sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^4.2.0"
+    entities "^2.0.0"
+
 domelementtype@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.0.1.tgz#1f8bdfe91f5a78063274e803b4bdcedf6e94f94d"
   integrity sha512-5HOHUDsYZWV8FGWN0Njbr/Rn7f/eWSQi1v7+HsUVwXgn8nWWlL64zKDkS0n8ZmQ3mlWOMuXOnR+7Nx/5tMO5AQ==
+
+domelementtype@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/domelementtype/-/domelementtype-2.3.0.tgz#5c45e8e869952626331d7aab326d01daf65d589d"
+  integrity sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==
 
 domhandler@^3.0.0:
   version "3.0.0"
@@ -419,6 +433,13 @@ domhandler@^3.0.0:
   integrity sha512-eKLdI5v9m67kbXQbJSNn1zjh0SDzvzWVWtX+qEI3eMjZw8daH9k8rlj1FZY9memPwjiskQFbe7vHVVJIAqoEhw==
   dependencies:
     domelementtype "^2.0.1"
+
+domhandler@^4.2.0, domhandler@^4.2.2:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.3.1.tgz#8d792033416f59d68bc03a5aa7b018c1ca89279c"
+  integrity sha512-GrwoxYN+uWlzO8uhUXRl0P+kHE4GtVPfYzVLcUxPL7KNdHKj66vvlhiweIHqYYXWlw+T8iLMp42Lm67ghw4WMQ==
+  dependencies:
+    domelementtype "^2.2.0"
 
 domutils@^2.0.0:
   version "2.0.0"
@@ -428,6 +449,15 @@ domutils@^2.0.0:
     dom-serializer "^0.2.1"
     domelementtype "^2.0.1"
     domhandler "^3.0.0"
+
+domutils@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/domutils/-/domutils-2.8.0.tgz#4437def5db6e2d1f5d6ee859bd95ca7d02048135"
+  integrity sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==
+  dependencies:
+    dom-serializer "^1.0.1"
+    domelementtype "^2.2.0"
+    domhandler "^4.2.0"
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -448,6 +478,11 @@ entities@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.0.tgz#68d6084cab1b079767540d80e56a39b423e4abf4"
   integrity sha512-D9f7V0JSRwIxlRI2mjMqufDrRDnx8p+eEOz7aUM9SuvF8gsBzra0/6tbjl1m8eQHrZlYj6PxqE00hZ1SAIKPLw==
+
+entities@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-3.0.1.tgz#2b887ca62585e96db3903482d336c1006c3001d4"
+  integrity sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -573,6 +608,11 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
+hexo-asset-link@^2.0.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/hexo-asset-link/-/hexo-asset-link-2.2.1.tgz#2665141a9324f02d20c4612df3b913d6c2cb2159"
+  integrity sha512-YQxqkX+fUmzAjgbiExr1paMtfBuWuMTzhUTma+eruIybdvi9mL90Hz0sYEI8dfTl1JoJbl9Jjp5hrC5/saZwUw==
+
 hexo-bunyan@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-bunyan/-/hexo-bunyan-2.0.0.tgz#020d7a51104cc7fe50df9005020c359ac504309e"
@@ -599,6 +639,18 @@ hexo-cli@^3.0.0:
     resolve "^1.11.0"
     tildify "^2.0.0"
 
+hexo-deployer-git@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-deployer-git/-/hexo-deployer-git-2.1.0.tgz#2e72f05d7b318dbe29929d156ea13f9132354ff1"
+  integrity sha512-0rx8YVd1UrwD9vUzIPrB7mljLdcmUv0zRj3MAMCBxY7HqI2RM5ZEV0uKxi34qB7LYA80BNl3FWHl2ghO/tKVTA==
+  dependencies:
+    bluebird "^3.5.0"
+    chalk "^3.0.0"
+    hexo-fs "^2.0.0"
+    hexo-util "^1.0.0"
+    moment "^2.18.0"
+    swig-templates "^2.0.2"
+
 hexo-front-matter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-front-matter/-/hexo-front-matter-1.0.0.tgz#0b48b1c1ed143e8cb25b3b223a9037385d910655"
@@ -610,6 +662,16 @@ hexo-fs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-2.0.0.tgz#0bc421bc0c975a85a25061aca9537fb59292d279"
   integrity sha512-mtwjfh5IZMXVCoITtoV+LfWbrD7xCWyv8OTIrOmwUW4JR+7EEvuwqu+QDztt4RS0azxUuc1sKVK68Mxfp2AoYQ==
+  dependencies:
+    bluebird "^3.5.1"
+    chokidar "^3.0.0"
+    escape-string-regexp "^2.0.0"
+    graceful-fs "^4.1.11"
+
+hexo-fs@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-2.0.1.tgz#abbdcadec067a8326d14b48e101935cf1a4f48e9"
+  integrity sha512-IgAhdjYN3GCluy2MSeeX+F/RkyVsjjzZO7Bbhj3aYoSBqcJhJsR1Nz+Powp26siQPuIFLNNYjqmfPbVg2vg+Mg==
   dependencies:
     bluebird "^3.5.1"
     chokidar "^3.0.0"
@@ -636,6 +698,15 @@ hexo-generator-index@^1.0.0:
   integrity sha512-L25MdZ7e5ar/F8lIW+zBNNlA4f5A8CBUOYi1IQZCgL3wPVW+AWn66RSM5UVBAbiw5yxDeTHdk0sJYXbhSBaOFQ==
   dependencies:
     hexo-pagination "1.0.0"
+
+hexo-generator-json-content@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/hexo-generator-json-content/-/hexo-generator-json-content-4.2.3.tgz#1cabaf53319c4ca5be41a34a501f280e76cae60b"
+  integrity sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA==
+  dependencies:
+    hexo-util latest
+    keyword-extractor latest
+    moment latest
 
 hexo-generator-tag@^1.0.0:
   version "1.0.0"
@@ -702,6 +773,11 @@ hexo-server@^1.0.0:
     open "^6.3.0"
     serve-static "^1.14.1"
 
+hexo-tag-video@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-tag-video/-/hexo-tag-video-0.0.2.tgz#a123fda0b4e57c2ad6fd79a2cf1c8245065d9229"
+  integrity sha512-F9AEtAKw6ybu9z7qsNMEWecc8YQ5mkRFH/daJXCnAYMaxjcAJqtvtsMFZ4cEEI4bi9JS2MVYICZVkOR6KjI96Q==
+
 hexo-util@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-1.0.0.tgz#2545efcd66e345ef92fe48a73a35470cd65f0b2a"
@@ -714,7 +790,23 @@ hexo-util@1.0.0:
     html-entities "^1.2.1"
     striptags "^3.1.1"
 
-hexo-util@^1.4.0, hexo-util@^1.8.0:
+hexo-util@^1.0.0, hexo-util@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-1.9.1.tgz#15dc10d0dca474c978cdba9c20e8d0417ac993de"
+  integrity sha512-B6+nVi4Zpy7NPzlIcTLn9YBGb2Ly0q11mRzg6DyFWg0IfcrfF4tlWO0vRXqJVhvRyg+tIfUihmgypkiUW1IjNQ==
+  dependencies:
+    bluebird "^3.5.2"
+    camel-case "^4.0.0"
+    cross-spawn "^7.0.0"
+    deepmerge "^4.2.2"
+    highlight.js "^9.13.1"
+    htmlparser2 "^4.0.0"
+    prismjs "^1.17.1"
+    punycode.js "^2.1.0"
+    strip-indent "^3.0.0"
+    striptags "^3.1.1"
+
+hexo-util@^1.4.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-1.9.0.tgz#0018429319720599253b2a3ddde0c5e4e4cfc652"
   integrity sha512-WXv8IYd9HFtP6u/y7uoI//Fmg88uhKKDto9KeNNRdWf4HG/bRh/1NcSQZWu81DOZNshWD1rvFU8OKb7bUnX1WA==
@@ -730,10 +822,24 @@ hexo-util@^1.4.0, hexo-util@^1.8.0:
     strip-indent "^3.0.0"
     striptags "^3.1.1"
 
-hexo@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-4.2.0.tgz#dd306abe801ca47623cae7c86818af4425b466ec"
-  integrity sha512-j2Kzgx/eWF0IgSfUEsAAhr0mDaaqR3E1MTus0/Vrs+JpQdMiSlqSbudPf2S9O4FHi5CAzDCuzToGlg2kgoQxcA==
+hexo-util@latest:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.7.0.tgz#13d09292e79d260db35399710b3e19f3995443a3"
+  integrity sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ==
+  dependencies:
+    bluebird "^3.5.2"
+    camel-case "^4.0.0"
+    cross-spawn "^7.0.0"
+    deepmerge "^4.2.2"
+    highlight.js "^11.0.1"
+    htmlparser2 "^7.0.0"
+    prismjs "^1.17.1"
+    strip-indent "^3.0.0"
+
+hexo@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-4.2.1.tgz#2aa1d4428b0ade23bac34f546a387b36432dd81c"
+  integrity sha512-V7kJsL4m2HM0Czm0j0ZDLJWxv5OJvbpTWgk0cCKcvHg2Dd/SVgtyLI+ygoPPrMipTquxii6waF5l44Op0bMEEQ==
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
@@ -741,10 +847,10 @@ hexo@^4.0.0:
     chalk "^3.0.0"
     hexo-cli "^3.0.0"
     hexo-front-matter "^1.0.0"
-    hexo-fs "^2.0.0"
+    hexo-fs "^2.0.1"
     hexo-i18n "^1.0.0"
     hexo-log "^1.0.0"
-    hexo-util "^1.8.0"
+    hexo-util "^1.9.1"
     js-yaml "^3.12.0"
     lodash "^4.17.11"
     micromatch "^4.0.2"
@@ -761,6 +867,11 @@ hexo@^4.0.0:
     tildify "^2.0.0"
     titlecase "^1.1.2"
     warehouse "^3.0.1"
+
+highlight.js@^11.0.1:
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-11.6.0.tgz#a50e9da05763f1bb0c1322c8f4f755242cff3f5a"
+  integrity sha512-ig1eqDzJaB0pqEvlPVIpSSyMaO92bH1N2rJpLMN/nX396wTpDA4Eq0uK+7I/2XG17pFaaKE0kjV/XPeGt7Evjw==
 
 highlight.js@^9.13.1:
   version "9.18.1"
@@ -781,6 +892,16 @@ htmlparser2@^4.0.0:
     domhandler "^3.0.0"
     domutils "^2.0.0"
     entities "^2.0.0"
+
+htmlparser2@^7.0.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-7.2.0.tgz#8817cdea38bbc324392a90b1990908e81a65f5a5"
+  integrity sha512-H7MImA4MS6cw7nbyURtLPO1Tms7C5H602LRETv95z1MxO/7CP7rDVROehUYeYBUYEON94NXXDEPmZuq+hX4sog==
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^4.2.2"
+    domutils "^2.8.0"
+    entities "^3.0.1"
 
 http-errors@~1.7.2:
   version "1.7.3"
@@ -869,6 +990,11 @@ jsonparse@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
   integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
+
+keyword-extractor@latest:
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/keyword-extractor/-/keyword-extractor-0.0.23.tgz#e0072db743aa3138216508d2d6c5754791d1be75"
+  integrity sha512-O1ueOkiBSsh9zDhCvuAg0C0Pib7LX+kI6bWlmI8KvSaD8Xxnekqq/uiyCq1832DFvmJi/Ltw7Up7+rT2kFJvBg==
 
 kind-of@^3.0.2:
   version "3.2.2"
@@ -976,16 +1102,16 @@ mkdirp@0.5.x, mkdirp@~0.5.1, mkdirp@~0.5.x:
     minimist "^1.2.5"
 
 moment-timezone@^0.5.21:
-  version "0.5.28"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.28.tgz#f093d789d091ed7b055d82aa81a82467f72e4338"
-  integrity sha512-TDJkZvAyKIVWg5EtVqRzU97w0Rb0YVbfpqyjgu6GwXCAohVRqwZjf4fOzDE6p1Ch98Sro/8hQQi65WDXW5STPw==
+  version "0.5.37"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.37.tgz#adf97f719c4e458fdb12e2b4e87b8bec9f4eef1e"
+  integrity sha512-uEDzDNFhfaywRl+vwXxffjjq1q0Vzr+fcQpQ1bU0kbzorfS7zVtZnCnGc8mhWmF39d4g4YriF6kwA75mJKE/Zg==
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.10.6, moment@^2.22.2:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+"moment@>= 2.9.0", moment@^2.10.6, moment@^2.18.0, moment@^2.22.2, moment@latest:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 morgan@^1.9.1:
   version "1.10.0"
@@ -1436,7 +1562,7 @@ swig-extras@0.0.1:
   dependencies:
     markdown "~0.5.0"
 
-swig-templates@^2.0.3:
+swig-templates@^2.0.2, swig-templates@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/swig-templates/-/swig-templates-2.0.3.tgz#6b4c43b462175df2a8da857a2043379ec6ea6fd0"
   integrity sha512-QojPTuZWdpznSZWZDB63/grsZuDwT/7geMeGlftbJXDoYBIZEnTcKvz4iwYDv3SwfPX9/B4RtGRSXNnm3S2wwg==
